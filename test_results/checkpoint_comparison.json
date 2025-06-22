@@ -1,0 +1,846 @@
+[
+  {
+    "checkpoint_name": "checkpoint_epoch_30",
+    "checkpoint_path": "d:\\study\\DL\\TRAE test\\Face to Body\\checkpoints\\checkpoint_epoch_30.pth",
+    "metrics": {
+      "accuracy": 0.5,
+      "real_accuracy": 0.0,
+      "fake_accuracy": 1.0,
+      "precision": 0,
+      "recall": 0.0,
+      "f1_score": 0,
+      "confusion_matrix": {
+        "tp": 0,
+        "tn": 25,
+        "fp": 0,
+        "fn": 25
+      },
+      "total_videos": 50,
+      "correct_predictions": 25
+    },
+    "results": [
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id27_0001.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id46_0009.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id16_0007.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id50_0001.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id57_0006.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id46_0008.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id32_0004.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id27_0000.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id30_0003.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id20_0002.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id33_0009.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id38_0000.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id57_0000.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id44_0002.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id0_0003.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id52_0002.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id48_0003.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id48_0008.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id39_0003.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id22_0002.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id10_0001.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id57_0003.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id16_0002.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id27_0008.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id31_0007.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id0_id21_0006.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id23_id3_0001.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id28_id6_0002.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id16_id21_0006.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id1_id35_0004.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id31_id29_0004.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id23_id32_0005.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id28_id4_0002.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id40_id46_0001.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id9_id4_0002.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id31_id20_0006.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id28_id0_0000.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id4_id37_0000.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id30_id9_0003.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id24_id22_0009.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id47_id42_0005.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id28_id32_0005.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id47_id48_0003.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id56_id54_0005.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id3_id0_0008.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id37_id4_0002.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id23_id37_0001.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id31_id3_0009.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id21_id16_0004.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id1_id30_0000.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      }
+    ]
+  },
+  {
+    "checkpoint_name": "best_model",
+    "checkpoint_path": "d:\\study\\DL\\TRAE test\\Face to Body\\checkpoints\\best_model.pth",
+    "metrics": {
+      "accuracy": 0.5,
+      "real_accuracy": 0.0,
+      "fake_accuracy": 1.0,
+      "precision": 0,
+      "recall": 0.0,
+      "f1_score": 0,
+      "confusion_matrix": {
+        "tp": 0,
+        "tn": 25,
+        "fp": 0,
+        "fn": 25
+      },
+      "total_videos": 50,
+      "correct_predictions": 25
+    },
+    "results": [
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id27_0001.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id46_0009.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id16_0007.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id50_0001.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id57_0006.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id46_0008.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id32_0004.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id27_0000.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id30_0003.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id20_0002.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id33_0009.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id38_0000.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id57_0000.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id44_0002.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id0_0003.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id52_0002.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id48_0003.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id48_0008.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id39_0003.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id22_0002.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id10_0001.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id57_0003.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id16_0002.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id27_0008.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-real\\id31_0007.mp4",
+        "true_label": 1,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id0_id21_0006.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id23_id3_0001.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id28_id6_0002.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id16_id21_0006.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id1_id35_0004.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id31_id29_0004.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id23_id32_0005.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id28_id4_0002.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id40_id46_0001.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id9_id4_0002.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id31_id20_0006.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id28_id0_0000.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id4_id37_0000.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id30_id9_0003.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id24_id22_0009.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id47_id42_0005.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id28_id32_0005.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id47_id48_0003.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id56_id54_0005.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id3_id0_0008.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id37_id4_0002.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id23_id37_0001.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id31_id3_0009.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id21_id16_0004.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      },
+      {
+        "video_path": "D:\\Dataset\\Celeb-DF-v2\\Celeb-synthesis\\id1_id30_0000.mp4",
+        "true_label": 0,
+        "prediction": 0,
+        "probability": 0.5,
+        "frame_count": 0,
+        "error": "Traceback (most recent call last):\n  File \"D:\\study\\DL\\TRAE test\\Face to Body\\inference.py\", line 2, in <module>\n    import torch\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 262, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py\", line 258, in _load_dll_libraries\n    raise err\nOSError: [WinError 126] 找不到指定的模块。 Error loading \"C:\\Users\\capricious076\\anaconda3\\envs\\pytorch\\Lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies.\n"
+      }
+    ]
+  }
+]

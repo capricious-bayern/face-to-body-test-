@@ -1,0 +1,211 @@
+# 视频换脸检测系统配置文件
+
+# 数据配置
+data:
+  # Celeb-DF-v2数据集路径
+  dataset_path: "D:/Dataset/Celeb-DF-v2"
+  
+  # 帧采样间隔
+  frame_interval: 30
+  
+  # 图像尺寸
+  image_size: 256
+  
+  # 数据增强
+  augmentation:
+    horizontal_flip: 0.5
+    rotation: 10
+    color_jitter:
+      brightness: 0.2
+      contrast: 0.2
+      saturation: 0.2
+      hue: 0.1
+    gaussian_blur: 0.1
+    normalize:
+      mean: [0.485, 0.456, 0.406]
+      std: [0.229, 0.224, 0.225]
+
+# 模型配置
+model:
+  # 人脸编码器
+  face_encoder:
+    type: "FaceEncoder"  # FaceEncoder, AttentionFaceEncoder
+    params:
+      backbone: "resnet50"  # resnet18, resnet34, resnet50, resnet101
+      feature_dim: 512
+      projection_dim: 256
+      dropout: 0.1
+      pretrained: true
+  
+  # 身体编码器
+  body_encoder:
+    type: "BodyEncoder"  # BodyEncoder, MultiScaleBodyEncoder, BodyPartEncoder
+    params:
+      backbone: "resnet50"
+      feature_dim: 512
+      projection_dim: 256
+      dropout: 0.1
+      pretrained: true
+  
+  # 分类器
+  classifier:
+    type: "FaceBodyClassifier"  # FaceBodyClassifier, MultiModalClassifier, EnsembleClassifier
+    params:
+      face_dim: 256
+      body_dim: 256
+      hidden_dim: 512
+      num_classes: 2
+      dropout: 0.3
+      fusion_method: "concat"  # concat, add, attention
+
+# 损失函数配置
+loss:
+  # 对比学习损失
+  contrastive:
+    type: "IdentityAwareContrastiveLoss"  # SupConLoss, InfoNCELoss, IdentityAwareContrastiveLoss
+    params:
+      temperature: 0.1
+      alpha: 0.5  # InfoNCE权重
+      beta: 0.3   # Triplet权重
+      margin: 0.5
+  
+  # 分类损失
+  classification:
+    type: "CrossEntropyLoss"
+    params:
+      weight: [1.0, 1.0]  # [fake, real]
+      label_smoothing: 0.1
+  
+  # 损失权重
+  loss_weights:
+    contrastive: 0.7
+    classification: 0.3
+
+# 训练配置
+training:
+  # 基本参数
+  batch_size: 16
+  num_epochs: 100
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  
+  # 优化器
+  optimizer:
+    type: "AdamW"  # Adam, AdamW, SGD
+    params:
+      betas: [0.9, 0.999]
+      eps: 1e-8
+  
+  # 学习率调度
+  scheduler:
+    type: "CosineAnnealingLR"  # StepLR, CosineAnnealingLR, ReduceLROnPlateau
+    params:
+      T_max: 100
+      eta_min: 0.00001
+  
+  # 早停
+  early_stopping:
+    patience: 15
+    min_delta: 0.001
+    monitor: "val_accuracy"
+    mode: "max"
+  
+  # 梯度裁剪
+  gradient_clipping:
+    max_norm: 1.0
+  
+  # 混合精度训练
+  mixed_precision: true
+  
+  # 数据加载
+  dataloader:
+    num_workers: 4
+    pin_memory: true
+    persistent_workers: true
+
+# 验证配置
+validation:
+  # 验证频率（每N个epoch）
+  frequency: 1
+  
+  # 验证集比例
+  split_ratio: 0.2
+  
+  # 验证指标
+  metrics:
+    - "accuracy"
+    - "precision"
+    - "recall"
+    - "f1_score"
+    - "auc"
+
+# 日志和保存配置
+logging:
+  # 日志目录
+  log_dir: "logs"
+  
+  # TensorBoard
+  tensorboard:
+    log_dir: "runs"
+    log_frequency: 100  # 每N个batch记录一次
+  
+  # 模型保存
+  checkpoint:
+    save_dir: "checkpoints"
+    save_frequency: 5  # 每N个epoch保存一次
+    save_best_only: true
+    monitor: "val_accuracy"
+    mode: "max"
+  
+  # 日志级别
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+
+# 推理配置
+inference:
+  # 批处理大小
+  batch_size: 1
+  
+  # 设备
+  device: "auto"  # auto, cuda, cpu
+  
+  # 输出格式
+  output_format: "json"  # json, csv
+  
+  # 置信度阈值
+  confidence_threshold: 0.5
+  
+  # 结果保存
+  save_results: true
+  save_visualizations: false
+
+# 系统配置
+system:
+  # 随机种子
+  seed: 42
+  
+  # CUDA设置
+  cuda:
+    deterministic: true
+    benchmark: false
+  
+  # 内存优化
+  memory:
+    empty_cache_frequency: 100  # 每N个batch清理一次缓存
+    max_memory_usage: 0.9  # 最大内存使用率
+
+# 实验配置
+experiment:
+  # 实验名称
+  name: "face_body_detection_v1"
+  
+  # 实验描述
+  description: "Face-body matching for deepfake detection using contrastive learning"
+  
+  # 标签
+  tags:
+    - "deepfake_detection"
+    - "contrastive_learning"
+    - "face_body_matching"
+  
+  # 版本
+  version: "1.0.0"
