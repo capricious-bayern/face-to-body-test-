@@ -320,9 +320,3 @@ loss:
   url={https://github.com/your-repo}
 }
 ```
-
-## 联系方式
-
-- 邮箱: your.email@example.com
-- GitHub: https://github.com/your-username
-- 项目主页: https://github.com/your-repo
